@@ -1,0 +1,13 @@
+{
+  "name": "@mono/entry2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "node ./build.js"
+  },
+  "dependencies": {
+    "eslint": "^8.51.0"
+  }
+}

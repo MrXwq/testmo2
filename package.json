@@ -1,0 +1,19 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "author": "xwq",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "version": "lerna version --no-private"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "lerna": "^7.3.1",
+    "prettier": "^3.0.3"
+  }
+}
